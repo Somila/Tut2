@@ -17,6 +17,10 @@ public:
 	int multiply(fraction multiply);
 	int divide(fraction div);
 	int GCD(fraction gcd);
-	void print()const;
+	void print();
+	fraction operator+(fraction add);
+	fraction operator*(fraction multiply);
+	fraction operator/(fraction div);
+	fraction operator-(fraction sub);
 };
 #endif
