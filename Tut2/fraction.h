@@ -12,9 +12,10 @@ public:
 	int getDen();
 	void setNum(int);
 	void setDen(int);
-	int subtract();
-	int multiply();
-	int divide();
+	int add(int add);
+	int subtract(int sub);
+	int multiply(int multiply);
+	int divide(int div);
 	void print()const;
 };
 #endif
