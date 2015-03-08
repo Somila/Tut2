@@ -10,8 +10,8 @@ public:
 	//Set and get all data members
 	int getNum();
 	int getDen();
-	int setNum(int);
-	int set(int);
+	void setNum(int);
+	void setDen(int);
 	int subtract();
 	int multiply();
 	int divide();
