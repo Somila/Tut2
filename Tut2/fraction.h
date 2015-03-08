@@ -9,13 +9,13 @@ public:
 	fraction(int n = 0, int d = 1);  //default constructor
 	//Set and get all data members
 	int getNum();
-	int getDen();
+	int getDen();  
 	void setNum(int);
 	void setDen(int);
-	int add(int add);
-	int subtract(int sub);
-	int multiply(int multiply);
-	int divide(int div);
+	int add(fraction add);
+	int subtract(fraction sub);
+	int multiply(fraction multiply);
+	int divide(fraction div);
 	void print()const;
 };
 #endif
