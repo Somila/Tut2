@@ -22,5 +22,7 @@ public:
 	fraction operator*(fraction multiply);
 	fraction operator/(fraction div);
 	fraction operator-(fraction sub);
+	~fraction();
 };
+
 #endif

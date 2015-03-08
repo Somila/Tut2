@@ -1,10 +1,28 @@
 #include <iostream>
 #include "fraction.h"
 using namespace std;
-int fraction::getNum(){};
-int fraction::getDen(){};
-void fraction::setNum(int){};
-void fraction::setDen(int){};
+
+fraction::fraction(int n, int d)
+{
+	num = n;
+	den = d;
+};
+
+int fraction::getNum()
+{
+	return den;
+};
+int fraction::getDen()
+{
+	return den;
+};
+void fraction::setNum(int n)
+{
+	num = n;
+};
+void fraction::setDen(int n){
+	num = n;
+};
 
 /*int fraction::GCD(fraction gcd){
 	if (num != 0)
@@ -49,9 +67,9 @@ void fraction::print()
 	else
 	{
 		cout << "answer is = " << num <<"/" << den << endl;
-	};
+	}
 
-}const;
+};
 
 
 fraction fraction::operator+(fraction add)
@@ -70,3 +88,5 @@ fraction fraction::operator*(fraction multiply)
 {
 	return fraction(num*multiply.num, den*multiply.den);
 };
+fraction::~fraction()
+{};
