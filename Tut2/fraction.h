@@ -16,6 +16,7 @@ public:
 	int subtract(fraction sub);
 	int multiply(fraction multiply);
 	int divide(fraction div);
+	int GCD(fraction gcd);
 	void print()const;
 };
 #endif
